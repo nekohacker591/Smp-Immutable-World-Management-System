@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "iwms",
+  "version": "${version}",
+  "name": "Immutable World Management System",
+  "description": "Foundation modules for instance-based survival architecture.",
+  "authors": [
+    "IWMS Dev Team"
+  ],
+  "license": "All-Rights-Reserved",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "com.smp.iwms.ImmutableWorldManagementMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
